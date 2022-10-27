@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-27T06:50:35.047Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="L_gMRRhX0aq14ghKt1my" version="20.5.1" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-10-27T07:03:50.362Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="8jJ3d1FB0vEPB5D29YM1" version="20.5.1" type="github" pages="2">
   <diagram id="0C8uGVvhPufoKVmoKiG1" name="PA">
     <mxGraphModel dx="1038" dy="1673" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -226,7 +226,7 @@
         <mxCell id="UIgXjTR5e7-DOR3ebjsX-86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="UIgXjTR5e7-DOR3ebjsX-68" target="UIgXjTR5e7-DOR3ebjsX-43" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="UIgXjTR5e7-DOR3ebjsX-68" value="?" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+        <mxCell id="UIgXjTR5e7-DOR3ebjsX-68" value="any other condition?" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="1290" y="650" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="UIgXjTR5e7-DOR3ebjsX-129" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="UIgXjTR5e7-DOR3ebjsX-89" target="UIgXjTR5e7-DOR3ebjsX-128" edge="1">
@@ -376,6 +376,75 @@
             <mxPoint x="860" y="390" as="targetPoint" />
             <mxPoint x="780" y="390" as="sourcePoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="lpwQGhoiRgWdHYXfVPfy-5" value="Processing Start" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1960" y="20" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lpwQGhoiRgWdHYXfVPfy-6" value="How to call flowScctionService by order repo?" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="1560" y="560" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lpwQGhoiRgWdHYXfVPfy-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="lpwQGhoiRgWdHYXfVPfy-7" target="lpwQGhoiRgWdHYXfVPfy-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lpwQGhoiRgWdHYXfVPfy-7" value="select BS shipment" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1950" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lpwQGhoiRgWdHYXfVPfy-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="lpwQGhoiRgWdHYXfVPfy-8" target="lpwQGhoiRgWdHYXfVPfy-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lpwQGhoiRgWdHYXfVPfy-8" value="query all BS shipment in this order which status is request" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2140" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lpwQGhoiRgWdHYXfVPfy-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="lpwQGhoiRgWdHYXfVPfy-9" target="UIgXjTR5e7-DOR3ebjsX-106">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lpwQGhoiRgWdHYXfVPfy-9" value="status must be request in Shipment table?" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="1470" y="1290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lpwQGhoiRgWdHYXfVPfy-12" value="update these BS shipment into PA" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1950" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lpwQGhoiRgWdHYXfVPfy-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="lpwQGhoiRgWdHYXfVPfy-17" target="lpwQGhoiRgWdHYXfVPfy-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lpwQGhoiRgWdHYXfVPfy-17" value="Choose one PA" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1950" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lpwQGhoiRgWdHYXfVPfy-20" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2280" y="1012.3999633789062" as="sourcePoint" />
+            <mxPoint x="2280" y="10" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lpwQGhoiRgWdHYXfVPfy-21" value="Finish Product Shipment" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2360" y="20" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lpwQGhoiRgWdHYXfVPfy-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="lpwQGhoiRgWdHYXfVPfy-22" target="lpwQGhoiRgWdHYXfVPfy-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lpwQGhoiRgWdHYXfVPfy-22" value="Choose one FP shipment" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2360" y="90" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lpwQGhoiRgWdHYXfVPfy-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="lpwQGhoiRgWdHYXfVPfy-23" target="lpwQGhoiRgWdHYXfVPfy-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lpwQGhoiRgWdHYXfVPfy-23" value="select yield material items" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2360" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lpwQGhoiRgWdHYXfVPfy-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="lpwQGhoiRgWdHYXfVPfy-24" target="lpwQGhoiRgWdHYXfVPfy-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lpwQGhoiRgWdHYXfVPfy-24" value="update these yield material items into FP shipment" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2360" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lpwQGhoiRgWdHYXfVPfy-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="lpwQGhoiRgWdHYXfVPfy-25" target="lpwQGhoiRgWdHYXfVPfy-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lpwQGhoiRgWdHYXfVPfy-25" value="query all yield material items&amp;nbsp;in this order which refMaterialId is null" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2580" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lpwQGhoiRgWdHYXfVPfy-27" value="update these yield material items refMaterialId" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2360" y="390" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
