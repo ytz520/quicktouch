@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-10-28T09:04:37.964Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="JYeXm-jcakw-1XFZmTgV" version="20.5.1" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-10-31T02:42:27.103Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="EfLDRQUZLaRXgbk7ZKhf" version="20.5.1" type="github" pages="2">
   <diagram id="0C8uGVvhPufoKVmoKiG1" name="PA">
-    <mxGraphModel dx="1038" dy="1639" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="1974" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -449,10 +449,10 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="nAgPJ-0IlX99UcXgMdb8-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fvVDGAiYCYcqHqIBQKdd-21" target="nAgPJ-0IlX99UcXgMdb8-1">
+        <mxCell id="nAgPJ-0IlX99UcXgMdb8-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="fvVDGAiYCYcqHqIBQKdd-21" target="nAgPJ-0IlX99UcXgMdb8-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="fvVDGAiYCYcqHqIBQKdd-21" value="copy request FP shipment to PA, 1:1, remain status value, if material is duplicate, this material must be merge" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="fvVDGAiYCYcqHqIBQKdd-21" value="copy request FP shipment to PA, 1:1, remain status value, if material is duplicate, this material must be merge(need not copy now!)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1250" y="1957.5" width="130" height="95" as="geometry" />
         </mxCell>
         <mxCell id="fvVDGAiYCYcqHqIBQKdd-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="fvVDGAiYCYcqHqIBQKdd-22" target="UIgXjTR5e7-DOR3ebjsX-139" edge="1">
@@ -467,7 +467,7 @@
         <mxCell id="fvVDGAiYCYcqHqIBQKdd-34" value="step location is not null" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1525" y="400" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="nAgPJ-0IlX99UcXgMdb8-1" value="isERP" style="rhombus;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+        <mxCell id="nAgPJ-0IlX99UcXgMdb8-1" value="isERP" style="rhombus;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="1275" y="2100" width="80" height="80" as="geometry" />
         </mxCell>
       </root>
